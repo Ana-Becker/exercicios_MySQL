@@ -1,0 +1,5 @@
+ALTER TABLE Produto
+MODIFY COLUMN Codigo_Produto VARCHAR(50);
+
+ALTER TABLE Nota_fiscal
+ADD ICMS FLOAT AFTER Numero_NF;
